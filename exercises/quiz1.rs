@@ -15,12 +15,12 @@
 
 
 // Put your function here!
- pub fn calculate_price_of_apples(apple_num: i32) -> i32 {   
-    if apple_num > 40 {
-        apple_num*1
+ fn calculate_price_of_apples(n: i32) -> i32 {   
+    if n > 40 {
+        n
     }
     else{
-        apple_num*2
+        n*2
     }
  }
 // Don't modify this function!
